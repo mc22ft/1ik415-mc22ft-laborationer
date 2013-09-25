@@ -1,0 +1,98 @@
+a:link {color: black;}
+a:visited {color: blue;}
+a:focus {color: yellow}
+a:hover {color: orange;}
+a:aktive {color: silver;}
+
+
+        
+     
+
+.fokus { 
+    background-color: red;
+       
+    
+    }
+
+#container {
+    background-color: #BFCDBC;
+   
+    width: 960px;
+    margin: 0 auto;
+}
+
+
+#header {
+    
+    background-color: #B2CC89 ;
+    border: 1px solid black;
+    }
+    #header h1{
+        font-family: helvetica;
+        text-align: center
+
+    }
+#navigation {
+    border: 1px solid black;
+    float: left;
+    width: 200px;
+    
+    background-color: #609E5C;
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    
+    }
+#navigation ul {
+    list-style-type: none;
+    padding: 1px;
+}
+#navigation a{
+    border: 1px solid black;
+    font-family: helvetica;
+    text-decoration: none;
+    font-weight: bold;
+    /*background: #B2CC89;*/
+    padding: 6px 20px;
+    display:block;
+    margin: 1px;
+}
+#navigation li:link {
+    /*background: black;*/
+    
+}
+
+#navigation a:hover{
+    
+/*
+    background: #B2CC89;  
+    padding: 10px;
+    */
+}
+
+    
+#content {
+    border: 1px solid black;
+    float: left;
+    margin-left: 10px;
+    background-color: #64A8D1;
+    width: 500px;
+    
+   
+    }
+    
+#footer {
+    
+    background-color: #062569;
+    border: 1px solid black;
+    clear:both;
+    }
+    
+    /*
+    Mina färgval:
+    Mörkblå:  062569 "background-color footer"
+    Ljusblå:  64A8D1 "background-color content"
+    Mörkgrön: 609E5C "background-color navigation"
+    Ljusgrön: B2CC89 "background-color header"
+    GråGrön:  BFCDBC "background-color container"
+    */
