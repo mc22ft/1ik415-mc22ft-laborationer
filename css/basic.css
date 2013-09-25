@@ -5,16 +5,52 @@ a:hover {color: orange;}
 a:aktive {color: silver;}
 
 
-        
-     
+.text {
+  border: 1px solid black; 
+  font-family: Times New Roman;
+  
+}
+
+.blogg {
+    text-align: center;
+    margin-left:60px;
+    margin-right:60px;
+    font-family: helvetica;
+    
+    
+}    
+h2 .blogg {
+font-family: helvetica;
+}
+
+p.blogg {
+    
+    font-family: Times New Roman;
+}
+
+
 
 .fokus { 
-    background-color: red;
+    background-color: #609E5C;
        
     
     }
+    
+/*.hart {   
+    
+   height: 120px;
+     width: auto;
+     overflow: hidden;
+     }*/
+    
+    
+/*.video {
+    margin: 0 auto; 
+    width: 700px;
+    
+}*/
 
-#container {
+#container {                                        /*CONTAINER*/
     background-color: #BFCDBC;
    
     width: 960px;
@@ -28,60 +64,54 @@ a:aktive {color: silver;}
     border: 1px solid black;
     }
     #header h1{
+        font-size: 50px;
         font-family: helvetica;
-        text-align: center
+        text-align: center;
 
     }
-#navigation {
+#navigation {                                       /*NAVIGATION*/
     border: 1px solid black;
     float: left;
     width: 200px;
     
-    background-color: #609E5C;
+    background-color: #B2CC89;
     list-style: none;
     margin: 0;
     padding: 0;
     
     }
-#navigation ul {
-    list-style-type: none;
-    padding: 1px;
-}
-#navigation a{
-    border: 1px solid black;
-    font-family: helvetica;
-    text-decoration: none;
-    font-weight: bold;
-    /*background: #B2CC89;*/
-    padding: 6px 20px;
-    display:block;
-    margin: 1px;
-}
-#navigation li:link {
-    /*background: black;*/
-    
-}
+        #navigation ul {
+            list-style-type: none;
+            padding: 1px;
+        }
+            #navigation li:link {
+                
+                
+            }
+                #navigation a{
+                    border: 1px solid black;
+                    font-family: helvetica;
+                    text-decoration: none;
+                    font-weight: bold;
+                    /*background: #B2CC89;*/
+                    padding: 6px 20px;
+                    display:block;
+                    margin: 1px;
+                }
 
-#navigation a:hover{
-    
-/*
-    background: #B2CC89;  
-    padding: 10px;
-    */
-}
 
     
-#content {
-    border: 1px solid black;
+#content {                                          /*CONTENT*/
+    
     float: left;
     margin-left: 10px;
     background-color: #64A8D1;
-    width: 500px;
-    
-   
+    width: 730px;
     }
+       
+                
     
-#footer {
+#footer {                                           /*FOOTER*/
     
     background-color: #062569;
     border: 1px solid black;
