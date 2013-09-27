@@ -6,6 +6,7 @@ a:active {color: silver;}*/
 
 
 h2 {
+    margin:0;
     padding-bottom:10px;
     color:#9C011F;
     border-bottom:1px solid #C8C9C4;
@@ -15,6 +16,8 @@ h3 {
     color:#9C011F;
     border-bottom:1px solid #C8C9C4;
 }
+
+
 
 .onlink a {
     text-decoration: none;
@@ -69,20 +72,34 @@ h3 {
     border-bottom:1px solid #E55822;
     }
 
-
-
 .blogg {
     text-align: center;
-    margin-top: 50px;
+    margin-top: 60px;
     margin-left:60px;
     margin-right:60px;
     font-family: helvetica;
-}    
+}
+.blogg h2 {
+    background-image: url("pics/lnutree.png");
+    background-repeat: no-repeat; 
+    background-position: center center;
+    background-position: 70px;
+    
+    }
+    
+
 .blogg p {
     margin-left:70px;
     margin-right:70px;
     font-family: Times New Roman;
     color: #424143;
+}
+.tree {
+    float:left;
+    width:25px;
+    opacity: 0.3;
+    position: relative;
+    
 }
 .name {
     text-align: right;
