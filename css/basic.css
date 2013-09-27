@@ -25,6 +25,11 @@ h3 {
 .onlink a:hover {color: black} 
 .onlink a:active {color: silver;}
 
+.taxi {
+    width: 100%;
+    height: 100px;
+}
+
 .navi ul {
     list-style-type: none;
     padding: 0;
@@ -34,7 +39,7 @@ h3 {
 }
 .navi{
     margin:2px;
-    padding-top: 120px ;
+    padding-top: 20px ;
     background:#FC350E;
     width: 956px;
     }
@@ -102,7 +107,7 @@ h3 {
     margin: auto;
 }
 
-.pres img {
+.pres img {                     /*img bilden*/
     width: 30%
 }
 .shade  {
