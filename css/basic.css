@@ -84,10 +84,7 @@ h3 {
     background-repeat: no-repeat; 
     background-position: center center;
     background-position: 70px;
-    
     }
-    
-
 .blogg p {
     margin-left:70px;
     margin-right:70px;
@@ -99,7 +96,12 @@ h3 {
     width:25px;
     opacity: 0.3;
     position: relative;
-    
+}
+
+.ny {
+    float:right;
+    width:200px;
+    margin:0 0 10px 10px ;
 }
 .name {
     text-align: right;
