@@ -1,128 +1,198 @@
-a:link {color: black;}
+/*a:link {color: black;}
 a:visited {color: blue;}
 a:focus {color: yellow}
 a:hover {color: orange;}
-a:aktive {color: silver;}
+a:active {color: silver;}*/
 
 
-.text {
-  border: 1px solid black; 
-  font-family: Times New Roman;
-  
+h2 {
+    padding-bottom:10px;
+    color:#9C011F;
+    border-bottom:1px solid #C8C9C4;
 }
+h3 { 
+    padding-bottom:10px;
+    color:#9C011F;
+    border-bottom:1px solid #C8C9C4;
+}
+
+.onlink a {
+    text-decoration: none;
+   
+}
+.onlink a:link {color: #E55822;}       /*onlink är alla länkar utanför menyn*/
+.onlink a:visited {color: #E55822;}
+.onlink a:hover {color: black} 
+.onlink a:active {color: silver;}
+
+.navi ul {
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+    display: block;
+    width: 920px;
+}
+.navi{
+    margin:2px;
+    padding-top: 120px ;
+    background:#FC350E;
+    width: 956px;
+    }
+.navi li {
+    display: block;
+    font-family: helvetica;
+}
+.navi li a:hover{color: black;}
+.navi li a:active {color: silver;}
+
+.links {
+    float:left;
+    text-decoration: none;
+    color: #E55822; 
+    background: #FFF9FF;
+    padding: 6px 20px;
+    display:block;
+    margin: 1px;
+}
+.fokus {
+    float:left;
+    text-decoration: none;
+    font-size: 20px;
+    padding: 3.5px 20px;
+    display:block;
+    margin: 1px;
+    border-bottom:1px solid #E55822;
+    }
+
+
 
 .blogg {
     text-align: center;
+    margin-top: 50px;
     margin-left:60px;
     margin-right:60px;
     font-family: helvetica;
-    
-    
 }    
-h2 .blogg {
-font-family: helvetica;
-}
-
-p.blogg {
-    
+.blogg p {
+    margin-left:70px;
+    margin-right:70px;
     font-family: Times New Roman;
+    color: #424143;
+}
+.name {
+    text-align: right;
 }
 
 
 
-.fokus { 
-    background-color: #609E5C;
-       
-    
-    }
-    
-/*.hart {   
-    
-   height: 120px;
-     width: auto;
-     overflow: hidden;
-     }*/
-    
-    
-/*.video {
-    margin: 0 auto; 
-    width: 700px;
-    
-}*/
+
+.lab {
+    font-family: helvetica;
+}    
+.lab p {
+    font-family: Times New Roman;
+    color: #424143;
+} 
+.lab ul {
+    list-style-type: none;
+    margin-bottom:20px;
+    padding:0;
+}
+.lab table {
+    margin: auto;
+}
+
+.pres img {
+    width: 30%
+}
+.shade  {
+    opacity: 0.4;
+    text-align: center;
+}
+
+.kontakt  {
+    margin: 50px 110px 50px 110px;
+}
+.kontakt ul {
+    list-style-type: none;
+}
+
+
+.under {
+    float:left;
+    margin-top:20px;
+    color: #424143;
+    font-family: helvetica;
+}
+
 
 #container {                                        /*CONTAINER*/
-    background-color: #BFCDBC;
-   
+   /* background-color: #BFCDBC;*/
     width: 960px;
     margin: 0 auto;
+    
 }
 
 
 #header {
-    
-    background-color: #B2CC89 ;
-    border: 1px solid black;
+    background-color: #FFF9FF ;
+    margin: 0;
+    padding:0;
+    padding-top: 35px;
     }
     #header h1{
-        font-size: 50px;
+        color:#FC350E;
+        font-size: 20px;
         font-family: helvetica;
-        text-align: center;
-
+        text-align: left;
+        margin-bottom: 0;
     }
-#navigation {                                       /*NAVIGATION*/
-    border: 1px solid black;
-    float: left;
-    width: 200px;
     
-    background-color: #B2CC89;
-    list-style: none;
-    margin: 0;
-    padding: 0;
-    
+#navigation {                                /*NAVIGATION*/
     }
-        #navigation ul {
-            list-style-type: none;
-            padding: 1px;
-        }
-            #navigation li:link {
-                
-                
-            }
-                #navigation a{
-                    border: 1px solid black;
-                    font-family: helvetica;
-                    text-decoration: none;
-                    font-weight: bold;
-                    /*background: #B2CC89;*/
-                    padding: 6px 20px;
-                    display:block;
-                    margin: 1px;
-                }
-
-
     
-#content {                                          /*CONTENT*/
-    
-    float: left;
-    margin-left: 10px;
-    background-color: #64A8D1;
+#content {                                       /*CONTENT*/
+    margin: auto;
     width: 730px;
+    margin-top: 100px;
     }
-       
-                
     
 #footer {                                           /*FOOTER*/
-    
-    background-color: #062569;
-    border: 1px solid black;
+    margin:0;
+    padding-top:40px;
+    background-color: #E55822;
     clear:both;
     }
     
-    /*
-    Mina färgval:
-    Mörkblå:  062569 "background-color footer"
-    Ljusblå:  64A8D1 "background-color content"
-    Mörkgrön: 609E5C "background-color navigation"
-    Ljusgrön: B2CC89 "background-color header"
-    GråGrön:  BFCDBC "background-color container"
-    */
+   
+    
+    /*NYA FÄRGER!!!
+    Mörk orange 1 #9E121A
+Mörk orange 2 #FC350E
+Mörk orange 3 #9C011F
+
+klar orange #FC350E
+
+Beige orange #E55822
+
+grå color: #424143;
+
+ljus grå C8C9C4
+Ljusa:
+
+Blågrå #FFF9FF
+Mörkare bågrå #BFC1D9
+*/
+
+
+/*-div#content
+--div.blogg
+---h2
+--div.blogg
+[10:36:58] Johan Leitet: #content h2
+[10:37:07] Johan Leitet: .blogg h2
+[10:40:14] Johan Leitet: <p class="blogg">
+[10:40:25] Johan Leitet: <div class="blogg"> <p>
+[10:40:29] Johan Leitet: .blogg p
+[10:42:19] Johan Leitet: #blogg2 svg {width: 20%;}
+*/
