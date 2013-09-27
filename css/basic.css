@@ -134,13 +134,41 @@ h3 {
     text-align: center;
 }
 
+
+
+
 .kontakt  {
+    color:#9C011F;
+    background-color: #FFF9FF;
     margin: 50px 110px 50px 110px;
 }
 .kontakt ul {
     list-style-type: none;
 }
-
+.atyp {
+    float:left;
+    margin-right:20px;
+}
+.rubrik {
+    margin-right:39px;
+}
+.ask {
+    float:left;
+    margin-right:49px;
+}
+.box {
+    margin-left:20px;
+}
+.box1 {
+    margin-left:40px;
+    margin-bottom:10px;
+}
+.info li {
+    margin-left:90px;
+} 
+.send {
+    margin-left:120px;
+}
 
 .under {
     float:left;
