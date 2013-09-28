@@ -17,11 +17,37 @@ h3 {
     border-bottom:1px solid #C8C9C4;
 }
 
+/*-----SPIRITS-----*/
+#sprites a{
+    width: 24px;
+	height: 22px;
+	display:block;
+	background-image:url(pics/sprite.png);
+	text-indent:-999999px;
+}
+ #sprites li {
+     float:left;
+     list-style-type:none;
+     margin-right:30px;
+ }
+#sprites {
+    margin-left:700px;
+}
+ 
+#house {background-position:0 -49px;}
+#house:hover {background-position:0 -1px;}
+ 
+#hammer {background-position:0 -145px;}
+#hammer:hover {background-position:0 -97px;}
 
+#poster {background-position:-1px -240px;}
+#poster:hover {background-position:-1px -192px;}
+
+#post {background-position:0 -336px;}
+#post:hover {background-position:0 -288px;}
 
 .onlink a {
     text-decoration: none;
-   
 }
 .onlink a:link {color: #E55822;}       /*onlink är alla länkar utanför menyn*/
 .onlink a:visited {color: #E55822;}
