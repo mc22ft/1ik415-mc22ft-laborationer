@@ -10,16 +10,22 @@ h1 {
     font-size: 17pt;
     text-align: center;
     text-decoration:underline;
+    margin-top:-70px;
     }
  h2 {
-      margin:0;
+    margin:0;
     padding-bottom:10px;
-     font-size:14pt;
-     border-bottom:1px solid #C8C9C4;
+    font-size:14pt;
+    border-bottom:1px solid #C8C9C4;
  }   
 p {
     font-size:12pt;
 }
+
+#sprites { 
+    visibility: hidden; 
+    } 
+    
 .tree {
     visibility: hidden; 
 }

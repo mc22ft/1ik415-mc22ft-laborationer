@@ -3,7 +3,13 @@ a:visited {color: blue;}
 a:focus {color: yellow}
 a:hover {color: orange;}
 a:active {color: silver;}*/
-
+a {
+    text-decoration: none;
+}
+a:link {color: #E55822;}       
+a:visited {color: #E55822;}
+a:hover {color: #9C011F} 
+a:active {color: silver;}
 
 h2 {
     margin:0;
@@ -17,7 +23,7 @@ h3 {
     border-bottom:1px solid #C8C9C4;
 }
 
-/*-----SPIRITS-----*/
+/*-------------------------------SPIRITS-------------------------------*/
 #sprites a{
     width: 24px;
 	height: 22px;
@@ -46,19 +52,13 @@ h3 {
 #post {background-position:0 -336px;}
 #post:hover {background-position:0 -288px;}
 
-.onlink a {
-    text-decoration: none;
-}
-.onlink a:link {color: #E55822;}       /*onlink är alla länkar utanför menyn*/
-.onlink a:visited {color: #E55822;}
-.onlink a:hover {color: black} 
-.onlink a:active {color: silver;}
 
+/*-------------------------------meny bild-------------------------------*/
 .taxi {
     width: 100%;
     height: 100px;
-}
-
+    }
+/*-------------------------------meny buttoms-------------------------------*/
 .navi ul {
     list-style-type: none;
     padding: 0;
@@ -74,7 +74,7 @@ h3 {
     }
 .navi li {
     display: block;
-    font-family: "helvetica" "georgia" sans-serif ;
+    font-family: "helvetica", "georgia", "sans-serif" ;
 }
 .navi li a:hover{color: black;}
 .navi li a:active {color: silver;}
@@ -97,13 +97,13 @@ h3 {
     margin: 1px;
     border-bottom:1px solid #E55822;
     }
-
+/*-------------------------------blogg innnehållet-------------------------------*/
 .blogg {
     text-align: center;
     margin-top: 60px;
     margin-left:60px;
     margin-right:60px;
-    font-family: "helvetica" "georgia" sans-serif ;
+    font-family: "helvetica", "georgia", "sans-serif" ;
 }
 .blogg h2 {
     background-image: url("pics/lnutree.png");
@@ -114,7 +114,7 @@ h3 {
 .blogg p {
     margin-left:70px;
     margin-right:70px;
-    font-family: "Times New Roman" "georgia" sans-serif;
+    font-family: "Times New Roman", "georgia", "sans-serif";
     color: #424143;
 }
 .tree {
@@ -133,16 +133,14 @@ h3 {
     text-align: right;
 }
 
+/*-------------------------------laborationen-------------------------------*/
 
 
-
-.lab {
-    font-family: "helvetica" "georgia" sans-serif ;
-}    
 .lab p {
-    font-family: "Times New Roman" "georgia" sans-serif;
+    font-family: "Times New Roman", "georgia", "sans-serif";
     color: #424143;
 } 
+
 .lab ul {
     list-style-type: none;
     margin-bottom:20px;
@@ -152,6 +150,7 @@ h3 {
     margin: auto;
 }
 
+/*-------------------------------Presentationen-------------------------------*/
 .pres img {                     /*img bilden*/
     width: 30%
 }
@@ -161,7 +160,7 @@ h3 {
 }
 
 
-
+/*-------------------------------Kontakt-------------------------------*/
 
 .kontakt  {
     color:#9C011F;
@@ -195,22 +194,23 @@ h3 {
 .send {
     margin-left:100px;
 }
-
+/*-------------------------------Footer under meny-------------------------------*/
 .under {
     float:left;
     margin-top:20px;
     color: #424143;
-    font-family: "helvetica" "georgia" sans-serif ;
+    font-family: "helvetica", "georgia", "sans-serif" ;
 }
 
+/*-------------------------------CONTAINER-------------------------------*/
 
-#container {                                        /*CONTAINER*/
+#container {                                      
    /* background-color: #BFCDBC;*/
     width: 960px;
     margin: 0 auto;
     
 }
-
+/*-------------------------------Header-------------------------------*/
 
 #header {
     background-color: #FFF9FF ;
@@ -221,27 +221,28 @@ h3 {
     #header h1{
         color:#FC350E;
         font-size: 20px;
-        font-family: "helvetica" "georgia" sans-serif ;
+        font-family: "helvetica", "georgia", "sans-serif" ;
         text-align: left;
         margin-bottom: 0;
     }
-    
-#navigation {                                /*NAVIGATION*/
+
+/*-------------------------------NAVIGATION-------------------------------*/
+#navigation {                              
     }
-    
-#content {                                       /*CONTENT*/
+/*-------------------------------CONTENT-------------------------------*/
+#content {                                      
     margin: auto;
     width: 730px;
     margin-top: 100px;
     }
-    
-#footer {                                           /*FOOTER*/
+/*-------------------------------FOOTER-------------------------------*/    
+#footer {                                          
     margin:0;
-    padding-top:40px;
+    padding-top:20px;
     background-color: #E55822;
     clear:both;
     }
-    
+
    
     
     /*NYA FÄRGER!!!
