@@ -78,6 +78,7 @@ h3 {
 }
 .navi li a:hover{color: black;}
 .navi li a:active {color: silver;}
+.navi li a:hover {background-color: #C8C9C4} 
 
 .links {
     float:left;
