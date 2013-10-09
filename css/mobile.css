@@ -63,14 +63,21 @@ a {
 .redovisningar {
     text-align:left;
     margin-left:30px;
-    font-size: 150%;
+    font-size: 200%;
 }
 /*-------------------------------Presentationen-------------------------------*/
+.pres {
+    list-style-type: none;
+}
+
+.temp {
+    visibility: hidden;
+}
 .pres img {                     /*img bilden*/
     width: 30%
 }
 .shade  {
-    opacity: 0.4;
+    
     text-align: center;
 }
 
@@ -78,7 +85,8 @@ a {
 /*-------------------------------Kontakt-------------------------------*/
 
 
-#content {                                      
+#content {   
+    margin-top:100px;
    text-align:center;
     width: 100%;
     
