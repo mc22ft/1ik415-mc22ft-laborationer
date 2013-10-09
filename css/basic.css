@@ -64,13 +64,16 @@ h3 {
     padding: 0;
     margin: 0;
     display: block;
-    width: 920px;
+    width: 100%;
+    max-width: 920px;
 }
 .navi{
     margin:2px;
     padding-top: 20px ;
     background:#FC350E;
-    width: 956px;
+    max-width: 956px;
+    width: 100%;
+    
     }
 .navi li {
     display: block;
@@ -203,11 +206,12 @@ h3 {
     font-family: "helvetica", "georgia", "sans-serif" ;
 }
 
-/*-------------------------------CONTAINER-------------------------------*/
+/*-------------------------------CONTAINER------------width: 960px;-------------------*/
 
 #container {                                      
    /* background-color: #BFCDBC;*/
-    width: 960px;
+    max-width: 960px;
+    width: 100%;
     margin: 0 auto;
     
 }
