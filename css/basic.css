@@ -198,6 +198,13 @@ h3 {
 .send {
     margin-left:100px;
 }
+.mail {
+    margin-right:20px;
+}
+.tel {
+    margin-right:27px;
+}
+
 /*-------------------------------Footer under meny-------------------------------*/
 .under {
     float:left;

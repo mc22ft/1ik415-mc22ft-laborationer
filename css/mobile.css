@@ -29,15 +29,22 @@ a {
     width: 100%;
     height: 300px;
 }
-    
+/*-------------------------------meny buttoms-------------------------------*/    
 .navi ul {
-   margin:auto;
+   margin-left: 5px;
 }
     
 .links {
+    padding: 6px 15px;
     font-size: 40px;
-    margin: 6px;
+    
 }
+.fokus {
+        
+    margin: 0;
+    border-bottom:1px solid #E55822;
+    }
+
 /*-------------------------------blogg innnehållet-------------------------------*/
 .blogg {
     
@@ -56,9 +63,12 @@ a {
 
 
 /*-------------------------------laborationen-------------------------------*/
-
+.lab {
+    text-align: center;
+}
 .lab table {
     font-size: 200%;
+    
 }
 .redovisningar {
     text-align:left;
@@ -66,9 +76,16 @@ a {
     font-size: 200%;
 }
 /*-------------------------------Presentationen-------------------------------*/
+
+
 .pres {
     list-style-type: none;
+text-align: center;
+
 }
+.pres ol {
+    list-style-type: none;
+    }
 
 .temp {
     visibility: hidden;
@@ -84,10 +101,48 @@ a {
 
 /*-------------------------------Kontakt-------------------------------*/
 
+.kontakt {
+    font-size:300%;
+}
+
+
+.rubrik {
+    margin-right:50px;
+}
+.ask {
+    float:left;
+    margin-right:85px;
+}
+
+.box {
+    margin-left:20px;
+    padding:15px;
+}
+.box1 {
+    margin-left:79px;
+    margin-bottom:10px;
+}
+.info li {
+    margin-left:0;
+} 
+.send {
+    margin-left:100px;
+}
+.tel {
+    margin-right:50px;
+}
+.boxen {
+    margin-bottom:0;
+    padding-top:20px;
+    padding-right:36px;
+}
+.buttom {
+   
+}
 
 #content {   
-    margin-top:100px;
-   text-align:center;
+    margin-top:170px;
+   
     width: 100%;
     
     }
