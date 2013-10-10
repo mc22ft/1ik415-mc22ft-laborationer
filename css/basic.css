@@ -39,6 +39,10 @@ h3 {
 #sprites {
     margin-left:700px;
 }
+
+#sprites ul {
+    
+}
  
 #house {background-position:0 -49px;}
 #house:hover {background-position:0 -1px;}
@@ -54,10 +58,12 @@ h3 {
 
 
 /*-------------------------------meny bild-------------------------------*/
+/*
 .taxi {
     width: 100%;
     height: 100px;
     }
+*/
 /*-------------------------------meny buttoms-------------------------------*/
 .navi ul {
     list-style-type: none;
