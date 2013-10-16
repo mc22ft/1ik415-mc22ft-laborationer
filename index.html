@@ -1,7 +1,26 @@
     <!doctype html>
 <html lang="sv">
+    
+    <!-- 
+    HTML 5 - Nya taggar som jag använt:
+    header
+    nav
+    article
+    footer
+    figure och figcaption
+    video
+    
+    Dessa anv jag ej:
+    aside, hade ingen bra ställe att sätta den på.
+    section, (= h2, h3) Rubriker blir sectioner.
+    -->
+    
     <head>
         <meta charset="utf-8"/>
+        
+        <!-- <meta name="viewport" content="width: device-width, initial-scale=1.0"" -->
+                    <!-- veiwport ska användas till mobila användare!!!!! -->
+        
         <title>My private place!</title>
         <link rel="stylesheet" href="css/basic.css" type="text/css" media="screen"/>
         <link rel="stylesheet" href="css/mobile.css" type="text/css" media="only screen and (max-device-width: 480px)" />
@@ -23,12 +42,13 @@
         </div>
         
             <div id="header">
+        <header>    
                 <h1>Plugg och blogg!</h1>
-                
+        </header>        
                 <img  src="css/pics/taxiFix2.png" alt="New York, tagen av mig!"/>
                
             </div>
-                
+        <nav>
             <div id="navigation"> 
                 <div class="navi">
                     <ul>
@@ -39,21 +59,26 @@
                     </ul>
                 </div>
             </div>
-            
+        </nav>     
             <div id="content">
             
+            <main>
                 <div class="blogg">
-                   
+                
+                <header>   
                     <h2>Mitt första  i cyber världen.</h2>
-                       
+                </header>
+                
                         <p>Mitt mål med denna blogg är att göra en funktions duglig blogg.
                             Allt ska göra i utbildnings syfte. Steg för steg i rätt språk och
                             regler. </p>
+                    <footer>        
                         <p class="name">Skrivet av Mathias, 2013-09-12</p>
-                 
-                
+                    </footer>    
+            <article>     
+                <header>
                     <h2>Hello, nummer två!</h2>
-                    
+                </header>    
                         <p>Här kommer bilden som jag har gjort i vektorgrafik. Kanske inte den bästa. Men det ver roligt att 
                             testa att skapa objekt i en online baserad editor.</p>
                             
@@ -74,20 +99,35 @@
                                   <text xml:space="preserve" y="205.3394" x="380.2785" transform="matrix(1.97248 0 0 4.08352 -348.591 -561.477)" text-anchor="middle" stroke-width="0" stroke="#261e1e" fill="#000000" style="cursor: move; pointer-events: inherit;" font-weight="bold" font-size="24" font-family="serif" id="svg_10">YORK</text>
                                  </g>
                                 </svg>
+                        <footer>        
                             <p class="name">Skrivet av Mathias, 2013-09-12</p>
-                   
-                   <img class="tree" src="pics/lnu.png" alt="Lnu träd"/>          
+                        </footer>
+                   <img class="tree" src="pics/lnu.png" alt="Lnu träd"/>  
+            </article>
+            
+            <article>
+                <header>   
                     <h2>Mitt tredje!!!</h2>
+                </header> 
+                
                         <p>Jaha, då var det dags att lägga in min första video i HTML 5. Denna är tagen från:
                         <a href="http://www.bigbuckbunny.org/index.php/download/index.php">bigbuckbunny</a>.</p>
                        
                         <video class="video" width="320" height="240" src="videos/film.mov" controls></video>
+                    <footer>                 
                         <p class="name">Skrivet av Mathias, 2013-09-12</p>
-                
+                    </footer>    
+            </article>
+            <article>
+                <header>
                     <h2>Lorem ipsum</h2>
-                    
+                </header>    
                     <p>
+                    
+                <gigure>
                     <img class="ny" src="pics/ny.png" alt="New York at night!"/>
+                    <figcaption>New York på natten! Fantastiskt.</figcaption>
+                </gigure>    
                     Lorem ipsum dolor sit amet, consectetur adipiscing elit. Phasellus eu adipiscing turpis. Vivamus nec risus condimentum, commodo mi ac, 
                     malesuada augue. Etiam auctor leo in facilisis feugiat. Vivamus hendrerit libero id sagittis sodales. Sed eu mollis enim. Praesent eu neque
                     id tellus viverra pharetra. Quisque sit amet ante nec est porttitor auctor. Integer dolor sem, faucibus id lacus sit amet, luctus vulputate
@@ -116,11 +156,15 @@
                     odio ipsum, mollis nec consequat quis, dapibus et purus. In egestas pellentesque enim, sagittis ullamcorper nisl. Sed interdum lobortis purus, sed sollicitudin
                     nunc lobortis at. Interdum et malesuada fames ac ante ipsum primis in faucibus. Nullam ac tincidunt orci. Suspendisse pulvinar varius tincidunt. Maecenas 
                     adipiscing dapibus dapibus. Aenean adipiscing purus at elit egestas interdum.</p>
-                    
+                <footer>    
                     <p class="name">Skrivet av Mathias, 2013-09-27</p>
-                    
+                </footer>    
+            </article>   
+            
+            <article>
+                <header>    
                     <h2>Jobbig dag!</h2>
-                    
+                </header>    
                     <p>Nu är det lördag och jag har pluggat hela dagen! Det är hhårt att gå på universitet, och kanske hårdare om man går på distans. Men det är bara att 
                         bita ihop och kämpa på. Familjen är i Falun och jag har lite extra tid att komma ifat lite. Jag hoppas att mina uppgifter kommer att vara godkända. 
                         Man har ju slitet mycket hårt denna gång. Tack för idag! Länken till min 
@@ -128,10 +172,15 @@
                         <a href="pages/laborationer.html#labaration3">laboration</a> finns här.
                         
                     </p>
+                <footer>    
                     <p class="name">Skrivet av Mathias, 2013-09-28</p>
-                    
+                </footer>    
+            </article>
+            
+            <article>
+                <header>    
                     <h2>Nylanserad mobil sajt</h2>
-                    
+                </header>    
                     <p>Nu har jag tagit steget ut i den mobila världen. Mycket intressant väg att promota sig själv på. Det krävs mycket jobb
                         med detaljer kring att det ska anpassat till olika plattformar. Jag testade först med Safari i Iphone. Då jag hade 
                         uppdaterings problem med C9 så testade jag att köra i Opera. Det var här det skapade mycket frågetecken. Det som passade i 
@@ -145,25 +194,28 @@
                             hela bredden i texter. Försökt att göra så formuläret anpassnings bart till mobilen. Jag har valt att inte ta bort några bilder. För 
                             att nätet är så mycket bättre än det var för ett par år sen. 
                         </p>
-                        
+                    <footer>    
                         <p class="name">Skrivet av Mathias, 2013-10-10</p>
-                    
+                    </footer>    
+            </article>        
                     
                 </div>
                 
             </div>
             
-            <div id="footer">
+            <footer>    
+                <div id="footer">
+                    
+                    <p class="under">Och här ska det vara en under meny. Som en ul lista.</p>
                 
-                <p class="under">Och här ska det vara en under meny. Som en ul lista.</p>
-            
-            <p><a href="http://jigsaw.w3.org/css-validator/check/referer">
-            <img style="border:0;width:88px;height:31px"
-            src="http://jigsaw.w3.org/css-validator/images/vcss-blue"
-            alt="Valid CSS!" /></a></p>
-                
-            </div>
-        
+                <p><a href="http://jigsaw.w3.org/css-validator/check/referer">
+                <img style="border:0;width:88px;height:31px"
+                src="http://jigsaw.w3.org/css-validator/images/vcss-blue"
+                alt="Valid CSS!" /></a></p>
+                    
+                </div>
+            </footer>    
+        </main>
         </div>
     </body>
 </html>
