@@ -218,6 +218,22 @@ h3 {
     margin-right:27px;
 }
 
+/*hCard*/
+
+.photo {
+    width:13%;
+    float:left;
+    margin: 22px 20px 50px 110px;
+    
+}
+.myInfo {
+    float:left;
+       
+}
+.adr {
+    float:left;
+}
+
 /*-------------------------------Footer under meny-------------------------------*/
 .under {
     float:left;
